@@ -1,0 +1,157 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, Arial, sans-serif;
+  background: #f5f7fc;
+  color: #202746;
+}
+
+.app {
+  max-width: 900px;
+  margin: auto;
+  padding: 32px 22px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.logo {
+  display: grid;
+  place-items: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 14px;
+  background: #6558dc;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+h1, h2, h3, p {
+  margin-top: 0;
+}
+
+.header h1 {
+  margin-bottom: 4px;
+  font-size: 23px;
+}
+
+.header p, .hero p, .upload-card > p {
+  color: #707894;
+}
+
+.hero {
+  padding: 58px 0 30px;
+}
+
+.eyebrow {
+  color: #6558dc;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}
+
+.hero h2 {
+  font-size: clamp(30px, 5vw, 43px);
+  letter-spacing: -1px;
+  margin: 14px 0;
+}
+
+.hero p {
+  line-height: 1.7;
+}
+
+.upload-card {
+  background: white;
+  padding: 28px;
+  border: 1px solid #e7e9f3;
+  border-radius: 20px;
+  box-shadow: 0 12px 40px #242a4a0a;
+}
+
+.file-picker {
+  min-height: 180px;
+  border: 2px dashed #d5d4f5;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  cursor: pointer;
+  text-align: center;
+  padding: 18px;
+  margin: 22px 0;
+}
+
+.file-picker input {
+  max-width: 100%;
+}
+
+.file-icon {
+  font-size: 30px;
+  color: #6558dc;
+}
+
+button {
+  width: 100%;
+  padding: 15px;
+  border: 0;
+  border-radius: 11px;
+  background: #6558dc;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.error {
+  margin-top: 18px;
+  color: #b42318;
+}
+
+.success {
+  margin-top: 25px;
+  overflow-wrap: anywhere;
+}
+
+.page {
+  background: #f7f8fc;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 12px;
+}
+
+.page p {
+  white-space: pre-wrap;
+  line-height: 1.6;
+  margin: 10px 0 0;
+}
+
+footer {
+  padding: 30px 0;
+  text-align: center;
+  color: #7b8199;
+  font-size: 13px;
+}
+
+@media (max-width: 500px) {
+  .app {
+    padding: 22px 14px;
+  }
+
+  .upload-card {
+    padding: 18px;
+  }
+}
