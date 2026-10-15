@@ -4,13 +4,13 @@
 
 | Date | Tool | Actual use | Files or components | Human verification |
 |---|---|---|---|---|
-| 2026-10-15 | ChatGPT | Project planning, setup instructions, and initial Flask and React code suggestions | `backend/app.py`, `frontend/src/App.jsx`, `frontend/src/index.css` | Team must run, inspect, understand and test the code |
+| 2026-10-15 | ChatGPT | Project planning, setup instructions, and initial Flask and React code suggestions | `backend/app.py`, `frontend/src/App.jsx`, `frontend/src/index.css` | Team tested and ran the code. |
 
 ## Application AI services
 
-- Provider: [Actual provider]
-- Model: [Actual model]
-- Purpose: [Tutor answers, quiz generation, or other implemented features]
+- Provider: [Google]
+- Model: [gemini-3.5-flash-lite]
+- Purpose: [Tutor answers]
 
 ## Verification
 
