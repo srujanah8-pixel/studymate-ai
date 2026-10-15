@@ -5,7 +5,6 @@
 | Date | Tool | Actual use | Files or components | Human verification |
 |---|---|---|---|---|
 | 2026-10-15 | ChatGPT | Project planning, setup instructions, and initial Flask and React code suggestions | `backend/app.py`, `frontend/src/App.jsx`, `frontend/src/index.css` | Team must run, inspect, understand and test the code |
-| [Date] | [Actual tool] | [Specific assistance used] | [Actual files] | [Who reviewed and tested it] |
 
 ## Application AI services
 
